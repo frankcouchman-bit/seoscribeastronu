@@ -1,14 +1,16 @@
 {
-"name": "seoscribe-astro",
-"version": "1.0.0",
-"private": true,
-"type": "module",
-"scripts": {
-"dev": "astro dev",
-"build": "astro build",
-"preview": "astro preview --host"
-},
-"dependencies": {
-"astro": "^4.14.0"
-}
+  "name": "seoscribe-astro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^4.10.0"
+  },
+  "engines": {
+    "node": ">=18.14.0"
+  }
 }
